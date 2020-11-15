@@ -1,0 +1,38 @@
+{
+    "products": [
+      { "id": 1, 
+        "name": "Mobile1", 
+        "category": "Electronics",
+        "price": 53610,
+        "quatity": 20,
+        "seller": "seller1",
+        "image": "img1",
+        "reviews": 56,
+        "wishlisted": "94"
+      },
+      { "id": 2, 
+        "name": "Mobile2", 
+        "category": "Electronics",
+        "price": 7410,
+        "quatity": 10,
+        "seller": "seller1",
+        "image": "img1",
+        "reviews": 16,
+        "wishlisted": "64"
+      },
+      { "id": 3, 
+        "name": "Mobile3", 
+        "category": "Electronics",
+        "price": 15610,
+        "quatity": 20,
+        "seller": "seller2",
+        "image": "img1",
+        "reviews": 56,
+        "wishlisted": "94"
+      }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }
