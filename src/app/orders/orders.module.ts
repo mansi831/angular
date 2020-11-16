@@ -5,7 +5,9 @@ import { ListOrdersComponent } from './list-orders/list-orders.component';
 
 
 @NgModule({
-  declarations: [ListOrdersComponent],
+  declarations: [
+    ListOrdersComponent
+  ],
   imports: [
     CommonModule
   ],
