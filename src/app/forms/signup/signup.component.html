@@ -1,0 +1,52 @@
+<div class="row">
+    <div class="col-xs-12">
+      <form (ngSubmit)='submit(ftemplate)' #ftemplate='ngForm'>
+        <div class="row">
+          <div class="col-sm-9 form-group">
+            <label>Product Name</label>
+            <input
+              type="text"
+              id="pName"
+              class="form-control"
+              name="pName"
+              ngModel
+              required>
+          </div>
+        </div>
+          <div class="row">
+          <div class="col-sm-9 form-group">
+            <label>Product Id</label>
+            <input
+              type="text"
+              id="pId"
+              class="form-control"
+              name="pId"
+              ngModel
+              required>
+          </div>
+          </div>
+          <div class="row">
+          <div class="col-sm-9 form-group">
+            <label>Price</label>
+            <input
+              type="number"
+              id="price"
+              class="form-control"
+              name="price"
+              [ngModel]=0>
+          </div>
+          </div>
+        
+        <div class="row">
+          <div class="col-sm-12">
+            <button
+              class="btn btn-success"
+              type="submit"
+            
+              >Add</button>
+          </div>
+        </div>
+      </form>
+    </div>
+</div>
+  
